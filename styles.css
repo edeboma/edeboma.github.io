@@ -1,3 +1,4 @@
+@import url(cabinet-grotesk.css);
 
 /* diagnostic styling */
 /* * {
@@ -10,6 +11,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: 'CabinetGrotesk-Regular';
+
   }
   
   /* scene */
@@ -46,6 +49,7 @@ body {
   
   .front {
     background: thistle;
+    
   }
   
   .back {
