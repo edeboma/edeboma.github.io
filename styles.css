@@ -1,4 +1,6 @@
 @import url(cabinet-grotesk.css);
+@import "https://unpkg.com/open-props";
+
 
 /* diagnostic styling */
 /* * {
@@ -12,6 +14,7 @@ body {
     align-items: center;
     height: 100vh;
     font-family: 'CabinetGrotesk-Regular';
+    background-image: var(--gradient-26)
 
   }
   
@@ -29,6 +32,8 @@ body {
     width: 100%;
     height: 100%;
     position: relative;
+
+    box-shadow: var(--shadow-3);
   
     cursor: pointer;
     transition: transform 0.5s;
@@ -49,6 +54,8 @@ body {
   
   .front {
     background: thistle;
+    text-align: center;
+    font-size: 1.5em;
     
   }
   
@@ -69,4 +76,6 @@ body {
     width: 100%;
     object-fit: cover;
   }
+
+  
   
